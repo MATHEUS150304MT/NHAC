@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Carrinho</h1>
+        <nav>
+            <a href="cardapio.html">Cardápio</a> |
+            <a href="pagamento.html">Pagamento</a>
+        </nav>
+    </header>
+
+    <section class="container">
+        <h2>Itens do Carrinho</h2>
+        <div id="carrinho-list"></div>
+        <h3 id="total">Total: R$ 0,00</h3>
+        <button onclick="finalizarPedido()">Finalizar Pedido</button>
+    </section>
+
+    <script src="js/pedidos.js"></script>
+</body>
+</html>

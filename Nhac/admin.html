@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Administração</h1>
+        <nav>
+            <a href="cardapio.html">Cardápio</a>
+        </nav>
+    </header>
+
+    <section class="container">
+        <h2>Cadastrar Produto</h2>
+        <input type="text" id="nome" placeholder="Nome"><br><br>
+        <input type="text" id="categoria" placeholder="Categoria"><br><br>
+        <input type="text" id="ingredientes" placeholder="Ingredientes (separados por vírgula)"><br><br>
+        <input type="number" id="preco" placeholder="Preço"><br><br>
+        <input type="text" id="img" placeholder="URL da Imagem"><br><br>
+        <button onclick="cadastrarProduto()">Cadastrar Produto</button>
+
+        <hr>
+        <h2>Lista de Produtos</h2>
+        <div id="produtos-admin"></div>
+    </section>
+
+    <script src="js/admin.js"></script>
+</body>
+</html>

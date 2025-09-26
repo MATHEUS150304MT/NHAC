@@ -1,0 +1,22 @@
+[
+  {"id":1,"nome":"Hambúrguer Clássico","categoria":"Lanches","ingredientes":["Pão","Hambúrguer","Queijo","Alface","Tomate"],"preco":20.0,"img":"public/hamburguer-classico.jpg"},
+  {"id":2,"nome":"X-Bacon","categoria":"Lanches","ingredientes":["Pão","Hambúrguer","Queijo","Bacon","Maionese"],"preco":25.0,"img":"public/xbacon.jpg"},
+  {"id":3,"nome":"X-Salada","categoria":"Lanches","ingredientes":["Pão","Hambúrguer","Queijo","Alface","Tomate","Molho Especial"],"preco":22.0,"img":"public/xsalada.jpg"},
+  {"id":4,"nome":"Pizza Calabresa","categoria":"Pizzas","ingredientes":["Massa","Molho","Queijo","Calabresa","Cebola"],"preco":45.0,"img":"public/pizza-calabresa.jpg"},
+  {"id":5,"nome":"Pizza Marguerita","categoria":"Pizzas","ingredientes":["Massa","Molho","Queijo","Manjericão"],"preco":40.0,"img":"public/pizza-marguerita.jpg"},
+  {"id":6,"nome":"Batata Frita Grande","categoria":"Acompanhamentos","ingredientes":["Batata","Sal","Molho"],"preco":15.0,"img":"public/batata-frita.jpg"},
+  {"id":7,"nome":"Coca-Cola 2L","categoria":"Bebidas","ingredientes":[],"preco":10.0,"img":"public/coca2l.jpg"},
+  {"id":8,"nome":"Suco Natural de Laranja","categoria":"Bebidas","ingredientes":[],"preco":8.0,"img":"public/suco-natural-de-laranja.jpg"},
+  {"id":9,"nome":"Milkshake Chocolate","categoria":"Bebidas","ingredientes":["Leite","Sorvete de Chocolate","Calda"],"preco":18.0,"img":"public/milkshake-de-chocolate.jpg"},
+  {"id":10,"nome":"Cheesecake","categoria":"Sobremesas","ingredientes":["Queijo","Massa","Geleia"],"preco":15.0,"img":"public/cheesecake.jpg"},
+  {"id":11,"nome":"Brownie","categoria":"Sobremesas","ingredientes":["Chocolate","Massa","Nozes"],"preco":14.0,"img":"public/brownie.jpg"},
+  {"id":12,"nome":"Pastel de Carne","categoria":"Lanches","ingredientes":["Massa","Carne","Temperos"],"preco":10.0,"img":"public/pastel-de-carne.jpg"},
+  {"id":13,"nome":"Coxinha de Frango","categoria":"Lanches","ingredientes":["Massa","Frango","Catupiry"],"preco":9.0,"img":"public/coxinha-de-frango.jpg"},
+  {"id":14,"nome":"Pizza Portuguesa","categoria":"Pizzas","ingredientes":["Massa","Molho","Queijo","Presunto","Ovo","Cebola"],"preco":48.0,"img":"public/pizza-portuguesa.jpg"},
+  {"id":15,"nome":"Pizza Frango com Catupiry","categoria":"Pizzas","ingredientes":["Massa","Molho","Queijo","Frango","Catupiry"],"preco":47.0,"img":"public/pizza-frango-com-catupiry.jpg"},
+  {"id":16,"nome":"Batata Frita Pequena","categoria":"Acompanhamentos","ingredientes":["Batata","Sal"],"preco":8.0,"img":"public/batata-frita-pequena.jpg"},
+  {"id":17,"nome":"Refrigerante Lata","categoria":"Bebidas","ingredientes":[],"preco":6.0,"img":"public/refrigerante-lata.jpg"},
+  {"id":18,"nome":"Suco de Uva","categoria":"Bebidas","ingredientes":[],"preco":9.0,"img":"public/suco-de-uva.jpg"},
+  {"id":19,"nome":"Milkshake Morango","categoria":"Bebidas","ingredientes":["Leite","Sorvete de Morango","Calda"],"preco":18.0,"img":"public/milkshake-morango.jpg"},
+  {"id":20,"nome":"Torta de Limão","categoria":"Sobremesas","ingredientes":["Limão","Massa","Merengue"],"preco":16.0,"img":"public/torta-de-limão.jpg"}
+]

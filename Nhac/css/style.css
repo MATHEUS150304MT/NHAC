@@ -1,0 +1,115 @@
+/* Timeline de status do pedido */
+.timeline {
+    display: flex;
+    gap: 24px;
+    margin: 24px 0;
+    justify-content: center;
+}
+.timeline-step {
+    padding: 12px 24px;
+    border-radius: 20px;
+    background: #ececec;
+    color: #888;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    transition: background 0.3s, color 0.3s;
+}
+.timeline-step.active {
+    background: #ff7f50;
+    color: #fff;
+    font-weight: 700;
+}
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f6f7fb;
+    color: #222;
+}
+
+header, nav, footer {
+    background: #ff7f50;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0 8px;
+    transition: color 0.2s;
+}
+
+header nav a:hover {
+    color: #222;
+}
+
+button {
+    background: #ff7f50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: background 0.3s, color 0.3s;
+}
+
+button:hover {
+    background: #e65c00;
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.produtos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 18px 12px;
+    width: calc(25% - 24px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ececec;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 10px 0 5px 0;
+    color: #ff7f50;
+}
+
+.card p {
+    font-size: 15px;
+    margin: 5px 0;
+    color: #444;
+}
+
+@media screen and (max-width: 900px) {
+    .card { width: calc(33.33% - 24px); }
+}
+
+@media screen and (max-width: 600px) {
+    .card { width: calc(50% - 24px); }
+}

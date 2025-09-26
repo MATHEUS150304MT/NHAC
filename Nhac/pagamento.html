@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Pagamento</h1>
+        <nav>
+            <a href="pedido.html">Voltar</a>
+        </nav>
+    </header>
+
+    <section class="container">
+        <h2>Pagamento</h2>
+        <p>Total: R$ <span id="total-pagamento">0,00</span></p>
+    <label id="label-nome-cartao" for="nome-cartao">Nome no cartão</label><br>
+    <input type="text" placeholder="Nome no cartão" id="nome-cartao"><br><br>
+    <label id="label-numero-cartao" for="numero-cartao">Número do cartão</label><br>
+    <input type="text" placeholder="Número do cartão" id="numero-cartao"><br><br>
+    <label id="label-validade-cartao" for="validade-cartao">Validade MM/AA</label><br>
+    <input type="text" placeholder="Validade MM/AA" id="validade-cartao"><br><br>
+    <label id="label-cvv-cartao" for="cvv-cartao">CVV</label><br>
+    <input type="text" placeholder="CVV" id="cvv-cartao"><br><br>
+        <div style="margin:16px 0;">
+            <label><input type="radio" name="forma-pagamento" value="Cartão de Crédito"> Cartão de Crédito</label>
+            <label style="margin-left:16px;"><input type="radio" name="forma-pagamento" value="Débito"> Débito</label>
+            <label style="margin-left:16px;"><input type="radio" name="forma-pagamento" value="À vista"> À vista</label>
+            <label style="margin-left:16px;"><input type="radio" name="forma-pagamento" value="Pix"> Pix</label>
+            <label style="margin-left:16px;"><input type="radio" name="forma-pagamento" value="Boleto"> Boleto</label>
+        </div>
+        <div id="pix-chaves" style="display:none; margin-bottom:16px;">
+            <button class="pix-btn" onclick="abrirPix('Celular')">Celular</button>
+            <button class="pix-btn" onclick="abrirPix('Email')">Email</button>
+            <button class="pix-btn" onclick="abrirPix('CPF')">CPF</button>
+            <button class="pix-btn" onclick="abrirPix('CNPJ')">CNPJ</button>
+        </div>
+        <button onclick="processarPagamento()">Pagar</button>
+    </section>
+
+    <script src="js/pedidos.js"></script>
+</body>
+</html>
